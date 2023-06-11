@@ -2,7 +2,11 @@ import React, { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLink, faVideo } from '@fortawesome/free-solid-svg-icons';
+
+// Import images
 import image from './images/profile.jpg';
+import pyTodo from './images/pyTodo.png';
 
 function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -105,13 +109,218 @@ function App() {
                 <li>Solidity</li>
                 <li>Ethers.js</li>
                 <li>Hardhat</li>
+                <li>Heroku</li>
+                <li>Netlify</li>
               </ul>
             </div>
           </div>
         </div>
       </section>
+
       <section className="projects-page">
         <h1>Projects</h1>
+        <div className="project-container">
+          <div className="project-wrapper">
+            <div className="project">
+              <div className="project-image-container">
+                <img className="project-image" src={pyTodo} alt="project" />
+              </div>
+              <div className="project-info">
+                <h3>pyTODO</h3>
+                <div className="project-description">
+                  <p>
+                    A full-stack application that uses CRUD operations to manage
+                    incomplete and complete todos.
+                  </p>
+                  <h4>Tech Stack</h4>
+                  <p>Python, Django, JavaScript, React, Heroku</p>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://python-todo.herokuapp.com/"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Visit Site</span>
+                  </a>
+                  <a href="https://github.com/justbytes" className="github">
+                    <FontAwesomeIcon
+                      icon={faVideo}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Video Demonstration</span>
+                  </a>
+                  <a
+                    href="https://github.com/justbytes/py-todo"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-wrapper">
+            <div className="project">
+              <div className="project-image-container">
+                <img className="project-image" src={pyTodo} alt="project" />
+              </div>
+              <div className="project-info">
+                <h3>pyTODO</h3>
+                <div className="project-description">
+                  <p>
+                    A full-stack application that uses CRUD operations to manage
+                    incomplete and complete todos.
+                  </p>
+                  <h4>Tech Stack</h4>
+                  <p>Python, Django, JavaScript, React, Heroku</p>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://python-todo.herokuapp.com/"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Visit Site</span>
+                  </a>
+                  <a href="https://github.com/justbytes" className="github">
+                    <FontAwesomeIcon
+                      icon={faVideo}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Video Demonstration</span>
+                  </a>
+                  <a
+                    href="https://github.com/justbytes/py-todo"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-wrapper">
+            <div className="project">
+              <div className="project-image-container">
+                <img className="project-image" src={pyTodo} alt="project" />
+              </div>
+              <div className="project-info">
+                <h3>pyTODO</h3>
+                <div className="project-description">
+                  <p>
+                    A full-stack application that uses CRUD operations to manage
+                    incomplete and complete todos.
+                  </p>
+                  <h4>Tech Stack</h4>
+                  <p>Python, Django, JavaScript, React, Heroku</p>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://python-todo.herokuapp.com/"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Visit Site</span>
+                  </a>
+                  <a href="https://github.com/justbytes" className="github">
+                    <FontAwesomeIcon
+                      icon={faVideo}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Video Demonstration</span>
+                  </a>
+                  <a
+                    href="https://github.com/justbytes/py-todo"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-wrapper">
+            <div className="project">
+              <div className="project-image-container">
+                <img className="project-image" src={pyTodo} alt="project" />
+              </div>
+              <div className="project-info">
+                <h3>pyTODO</h3>
+                <div className="project-description">
+                  <p>
+                    A full-stack application that uses CRUD operations to manage
+                    incomplete and complete todos.
+                  </p>
+                  <h4>Tech Stack</h4>
+                  <p>Python, Django, JavaScript, React, Heroku</p>
+                </div>
+                <div className="project-links">
+                  <a
+                    href="https://python-todo.herokuapp.com/"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faLink}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Visit Site</span>
+                  </a>
+                  <a href="https://github.com/justbytes" className="github">
+                    <FontAwesomeIcon
+                      icon={faVideo}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Video Demonstration</span>
+                  </a>
+                  <a
+                    href="https://github.com/justbytes/py-todo"
+                    className="github"
+                  >
+                    <FontAwesomeIcon
+                      icon={faGithub}
+                      size="lg"
+                      style={{ color: '#000000' }}
+                    />
+                    <span className="link-text"> Source Code</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );

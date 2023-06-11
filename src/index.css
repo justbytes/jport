@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Landing page style */
 .landing-page {
   display: flex;
@@ -39,7 +44,8 @@ code {
   height: auto;
   object-fit: contain;
   border-radius: 20px;
-  border: 2px solid rgb(10, 133, 10);
+  box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+  border: 1px solid black;
 }
 /* End of landing page */
 
@@ -56,8 +62,8 @@ code {
   margin: auto auto;
   background-color: whitesmoke;
   border-radius: 10px;
-  box-shadow: 5px 5px 15px rgba(10, 133, 10, 0.324);
-  border: 1px solid rgb(10, 133, 10);
+  box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+  border: 1px solid black;
   width: 70%;
   
 }
@@ -72,8 +78,8 @@ code {
   width: 10rem;
   height: 2rem;
   background-color: rgb(255, 255, 255);
-  box-shadow: inset 1px 1px 10px rgb(214, 214, 214);
-  border: 1px solid rgba(10, 133, 10, 0.451);
+  box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+  border: 1px solid black;
   border-radius: 5px;
 }
 
@@ -104,13 +110,18 @@ code {
   box-sizing: border-box;
   overflow-y: auto;
   flex-shrink: 0;
-  
 }
 
-
+.sidebar-content {
+  margin-top: 8%;
+}
 
 .sidebar h2 {
   margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  margin-top: 10%;
 }
 
 .sidebar ul {
@@ -124,25 +135,93 @@ code {
 }
 
 svg{
-  margin: 20px;
+  padding: 7px ;
 }
 
 .links {
-  font-size: 24px;
-  /* display: flex;
-  flex-wrap: wrap;
-  margin: auto  ; */
+  font-size: 18px;
 }
-
 
 /* End of aboutme style */
 
 /* Projects style */
 .projects-page {
-  height: 100vh;
+  height: 100%;
   background-color: whitesmoke;
+
+  }
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
+
+.project-wrapper {
+  width: 48%;
+  padding: 10px;
+ 
+
+}
+
+.project {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+  border: 1px solid black;
+  align-items: center;
+  padding: 12px;
+}
+
+.project-image-container {
+  width: 100%; 
+}
+
+.project-image {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px -5px 15px rgba(117, 117, 117, 0.324);
+}
+
+.project-info {
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+}
+
+.project-description {
+  margin-left: 5px;
+}
+
+.project h3 {
+  margin: 10px 5px;
+}
+
+/* .project-description {
+  
+} */
+
+.project-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  
+  
+}
+
+.fa-lg {
+  margin: -7px;
+}
+
+
 /* End of projects style */
+
+
+
 
 
 
@@ -164,3 +243,4 @@ svg{
     display: block; /* Stacks the image on top */
   }
 }
+
