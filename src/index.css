@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Nunito+Sans:wght@200&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,12 +7,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
 
 a {
   text-decoration: none;
@@ -27,7 +32,19 @@ a {
 .name-div {
   width: 60%;
   text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+
 }
+
+.name {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 48px;
+}
+
+.title {
+  margin-top: -30px;
+}
+
 .image-div {
   width: 40%;
   height: 100vh;
@@ -56,6 +73,12 @@ a {
   display: flex;
   flex-direction: column;
   text-align: center;
+  border-top: 1px solid black;
+}
+
+.page-title {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 32px;
 }
 
 .about-me-content {
@@ -113,15 +136,16 @@ a {
 }
 
 .sidebar-content {
-  margin-top: 8%;
+  margin-top: 5%;
 }
 
-.sidebar h2 {
-  margin-bottom: 20px;
-}
+/* .sidebar h2 {
+  margin-bottom: 10px;
+} */
 
 .sidebar h3 {
-  margin-top: 10%;
+  margin-top: 5%;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 .sidebar ul {
@@ -148,9 +172,17 @@ svg{
 .projects-page {
   height: 100%;
   background-color: whitesmoke;
+  border-top: 1px solid black;
 
   }
 
+.project-h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 32px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+  
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -161,8 +193,6 @@ svg{
 .project-wrapper {
   width: 48%;
   padding: 10px;
- 
-
 }
 
 .project {
@@ -174,6 +204,7 @@ svg{
   border: 1px solid black;
   align-items: center;
   padding: 12px;
+  
 }
 
 .project-image-container {
@@ -197,8 +228,21 @@ svg{
   margin-left: 5px;
 }
 
+.techStack {
+  margin-top: -15px;
+}
+
 .project h3 {
   margin: 10px 5px;
+  
+}
+
+.falink-link {
+  color: rgb(24, 119, 209) !important;
+}
+
+.falink-video {
+  color: rgb(238, 53, 53) !important;
 }
 
 /* .project-description {
@@ -209,18 +253,23 @@ svg{
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
-  
-  
 }
 
 .fa-lg {
   margin: -7px;
 }
 
-
 /* End of projects style */
 
+/* Footer style */
+footer {
+  text-align: center;
+  /* height: 2rem; */
+  padding: 30px;
+  color: rgb(208, 208, 208);
+}
 
+/* End footer style */
 
 
 
