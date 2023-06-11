@@ -2,6 +2,10 @@
   "name": "jport",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "18.16.0",
+    "npm": "9.5.1"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
