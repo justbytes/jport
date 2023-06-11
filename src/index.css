@@ -16,7 +16,6 @@ code {
     monospace;
 }
 
-
 a {
   text-decoration: none;
   color: black;
@@ -29,11 +28,11 @@ a {
   height: 100vh;
   background-color: whitesmoke;
 }
+
 .name-div {
   width: 60%;
   text-align: center;
   font-family: 'Nunito Sans', sans-serif;
-
 }
 
 .name {
@@ -54,6 +53,7 @@ a {
   padding: 20px;
   
 }
+
 .image {
   max-width: 100%;
   max-height: 100%;
@@ -70,6 +70,7 @@ a {
 
 .about-me-page {
   height: 100vh;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -135,12 +136,8 @@ a {
   flex-shrink: 0;
 }
 
-.sidebar-content {
-  margin-top: 5%;
-}
-
-/* .sidebar h2 {
-  margin-bottom: 10px;
+/* .sidebar-content {
+  margin-top: 3%;
 } */
 
 .sidebar h3 {
@@ -271,25 +268,63 @@ footer {
 
 /* End footer style */
 
-
-
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .landing-page {
-    flex-direction: column; /* Stacks the content vertically */
+      display: block;
+      height: 100%;
+      background-color: whitesmoke;
   }
 
   .name-div {
-    width: 100%;
-    height: auto;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .image-div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
   }
 
+}
+
+
+@media (max-width: 929px) {
+  .about-me-content {
+    margin: auto auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(117, 117, 117, 0.324);
+    border: 1px solid black;
+    width: 90%;
+  }
   .image-div {
-    width: 100%;
-    height: auto;
-    border: none; /* Removes the border for mobile devices */
-    display: block; /* Stacks the image on top */
+    width: 90%;
+    height: 100vh;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px;
+    
   }
 }
 
+@media (max-width: 999px) {
+  .project-wrapper {
+    width: 100%;
+    padding: 25px;
+  }
+}
+
+@media (max-width: 1027px) {
+  .about-me-page {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-top: 1px solid black;
+  }
+}
