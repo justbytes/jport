@@ -45,16 +45,12 @@ code {
 
 /* AboutMe style */
 
-
-
 .about-me-page {
   height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-
-
 
 .about-me-content {
   margin: auto auto;
@@ -71,13 +67,71 @@ code {
   padding: 10px;
 }
 
-.links,
-.tech-stack {
-  font-size: 24px;
+.sidebar-button {
+  margin: 20px;
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: inset 1px 1px 10px rgb(214, 214, 214);
+  border: 1px solid rgba(10, 133, 10, 0.451);
+  border-radius: 5px;
+}
+
+.sidebar.show {
+  left: 0; /* Show the sidebar */
+}
+
+.sidebar.hidden {
+  display: none; /* Hide the sidebar */
+}
+
+.sidebar-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 40%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  transition: left 0.3s ease-in-out;
+  z-index: 999;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  flex-shrink: 0;
+  
+}
+
+
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
 
 svg{
   margin: 20px;
+}
+
+.links {
+  font-size: 24px;
+  /* display: flex;
+  flex-wrap: wrap;
+  margin: auto  ; */
 }
 
 
