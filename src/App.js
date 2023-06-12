@@ -156,7 +156,7 @@ function App() {
                     <span className="link-text"> Visit Site</span>
                   </a>
                   <a
-                    href="https://github.com/justbytes/ai-nft-minter"
+                    href="https://drive.google.com/file/d/1pCcHuCx2lBOBwWk6IrunfEwTOVO9Tjas/view"
                     className="github"
                   >
                     <FontAwesomeIcon
@@ -211,7 +211,10 @@ function App() {
                     />
                     <span className="link-text"> Visit Site</span>
                   </a>
-                  <a href="https://github.com/justbytes" className="github">
+                  <a
+                    href="https://drive.google.com/file/d/1kLNRmyx561CvQqdUdpPvW2A4GpPz2l4u/view"
+                    className="github"
+                  >
                     <FontAwesomeIcon
                       icon={faVideo}
                       size="lg"
@@ -271,7 +274,10 @@ function App() {
                     />
                     <span className="link-text"> Visit Site</span>
                   </a>
-                  <a href="https://github.com/justbytes" className="github">
+                  <a
+                    href="https://drive.google.com/file/d/1XAuS9MhJA5ZMQX-Ovum9VLE4BX2aGWeO/view"
+                    className="github"
+                  >
                     <FontAwesomeIcon
                       icon={faVideo}
                       size="lg"
@@ -325,7 +331,10 @@ function App() {
                     />
                     <span className="link-text"> Visit Site</span>
                   </a>
-                  <a href="https://github.com/justbytes" className="github">
+                  <a
+                    href="https://drive.google.com/file/d/16PrmfLeXuk-3szxLPumuJCo22GzG4C1V/view"
+                    className="github"
+                  >
                     <FontAwesomeIcon
                       icon={faVideo}
                       size="lg"
