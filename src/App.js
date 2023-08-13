@@ -112,8 +112,11 @@ function App() {
                 <li>Solidity</li>
                 <li>Ethers.js</li>
                 <li>Hardhat</li>
+                <li>AWS</li>
                 <li>Heroku</li>
                 <li>Netlify</li>
+                <li>CI/CD</li>
+                <li>GIT</li>
               </ul>
             </div>
           </div>
@@ -143,10 +146,7 @@ function App() {
                   </p>
                 </div>
                 <div className="project-links">
-                  <a
-                    href="https://thunderous-truffle-69f5c3.netlify.app/"
-                    className="github"
-                  >
+                  <a href="https://www.thenftgenie.co" className="github">
                     <FontAwesomeIcon
                       icon={faLink}
                       size="lg"
